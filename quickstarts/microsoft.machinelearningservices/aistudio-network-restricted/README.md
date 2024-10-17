@@ -44,7 +44,7 @@ Limitations are maintained and kept up-to-date [here](https://learn.microsoft.co
 
 ## Pre-requisites
 
-This template expects that you have private VNet setup for your organization, and that you have traffic patterns established to access it securely. You must have access to creating private endpoints for the VNet setup you wish to connect.
+This template expects that you have private VNet setup for your organization, and that you have traffic patterns established to access it securely. You must have access to creating private endpoints for the Virtual Network setup you wish to link.
 
 ## Resources
 
@@ -57,6 +57,7 @@ This template expects that you have private VNet setup for your organization, an
 | `Microsoft.ContainerRegistry/registries` | An Azure Container Registry instance associated with the Azure Machine Learning workspace |
 | `Microsoft.MachineLearningServices/workspaces` | An Azure AI hub (Azure Machine Learning RP workspace of kind 'hub') |
 | `Microsoft.CognitiveServices/accounts` | An Azure AI Services as the model-as-a-service endpoint provider (allowed kinds: 'AIServices' and 'OpenAI') |
+| `Microsoft.Search/searchServices` | AI Search instance |
 
 ## Deployment
 
@@ -77,3 +78,4 @@ az deployment group create --resource-group privateAiHub --template-file main.bi
 If you are new to Azure AI Studio, see:
 
 - [Azure AI Studio](https://aka.ms/aistudio/docs)`Tags: ``Tags: `
+`Tags: `
